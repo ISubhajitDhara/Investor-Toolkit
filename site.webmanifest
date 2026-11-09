@@ -1,0 +1,17 @@
+{
+  "name": "Investor Toolkit",
+  "short_name": "Investor Toolkit",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#10243a",
+  "theme_color": "#10243a",
+  "description": "Bilingual personal finance learning in English and Bengali.",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

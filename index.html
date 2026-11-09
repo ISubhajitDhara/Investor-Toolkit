@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10243a">
+  <meta name="description" content="Learn personal finance in simple English and Bengali. Explore beginner-friendly lessons on SIPs, mutual funds, insurance, banking, budgeting and financial planning.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Investor Toolkit | Learn Personal Finance in English & Bengali">
+  <meta property="og:description" content="Free bilingual financial education, practical lessons and quizzes for beginners.">
+  <meta property="og:site_name" content="Investor Toolkit">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="stylesheet" href="seo.css">
+  <title>Investor Toolkit | Financial Learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Investor Toolkit home">
+      <span class="brand-mark">IT</span>
+      <span><strong>Investor Toolkit</strong><small data-i18n="tagline">Learn • Understand • Decide</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#explore">Learn</a><a href="learn/">Articles</a><a href="about.html">About</a>
+    </nav>
+    <div class="top-actions">
+      <button class="lang-switch" id="langToggle" aria-label="Switch language">বাংলা</button>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="eyebrow">YOUR FINANCIAL LEARNING SPACE</span>
+        <h1 data-i18n="heroTitle">Build your financial confidence.</h1>
+        <p data-i18n="heroText">Understand insurance, everyday financial products and investments — one simple lesson at a time.</p>
+        <a class="primary-btn" href="#explore" data-i18n="exploreBtn">Explore learning paths <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card"><span class="art-icon">↗</span><b>₹</b><small data-i18n="grow">Grow your knowledge</small></div>
+        <span class="floating f1">✦</span><span class="floating f2">＋</span><span class="floating f3">◎</span>
+      </div>
+    </section>
+
+    <div class="app-coming-note"><span>📱</span><span><strong>Android app planned</strong> — the website is the first release. A Play Store link will be added after the app is approved.</span></div>
+
+    <section class="seo-intro section-block">
+      <span class="eyebrow">PERSONAL FINANCE, MADE SIMPLE</span>
+      <h2>Learn money basics in English and Bengali</h2>
+      <p>Investor Toolkit is a free financial education resource for people who want to understand everyday money decisions. Start with the basics, learn at your own pace and test your understanding with short quizzes. Topics include saving, budgeting, insurance, banking, mutual funds and long-term investing.</p>
+      <p class="bn-copy" lang="bn">সহজ বাংলা ও English-এ personal finance শিখুন। সঞ্চয়, budgeting, insurance, banking, mutual fund এবং long-term investing সম্পর্কে ধাপে ধাপে জানুন। প্রতিটি lesson-এর পরে ছোট quiz দিয়ে নিজের বোঝাপড়া যাচাই করুন।</p>
+      <a class="text-link" href="learn/">Explore free financial education articles →</a>
+    </section>
+
+    <section class="section-block article-preview" aria-labelledby="articleHeading">
+      <div class="section-heading"><div><span class="eyebrow">LEARN AT YOUR OWN PACE</span><h2 id="articleHeading">Popular money guides</h2></div><a class="text-link" href="learn/">View all guides →</a></div>
+      <div class="seo-card-grid">
+        <a class="seo-card" href="articles/sip-basics.html"><span>INVESTING</span><h3>What is a SIP?</h3><p>Understand systematic investing, instalments and the risks of market-linked returns.</p><small>Read guide →</small></a>
+        <a class="seo-card" href="articles/mutual-fund-basics.html"><span>INVESTING</span><h3>Mutual funds for beginners</h3><p>Learn how mutual funds work, common fund categories and basic costs.</p><small>Read guide →</small></a>
+        <a class="seo-card" href="articles/term-insurance.html"><span>INSURANCE</span><h3>Term insurance explained</h3><p>Explore life cover, policy terms, exclusions and what to compare.</p><small>Read guide →</small></a>
+        <a class="seo-card" href="articles/emergency-fund.html"><span>FINANCIAL PLANNING</span><h3>How to build an emergency fund</h3><p>Plan a practical cash reserve for unexpected expenses.</p><small>Read guide →</small></a>
+      </div>
+    </section>
+
+    <section class="stats-row" aria-label="Learning progress">
+      <div class="stat-card"><span class="stat-icon">📚</span><div><strong id="completedCount">0</strong><small data-i18n="lessonsDone">Lessons completed</small></div></div>
+      <div class="stat-card"><span class="stat-icon">🎯</span><div><strong id="quizCount">0%</strong><small data-i18n="quizAccuracy">Quiz accuracy</small></div></div>
+      <div class="stat-card"><span class="stat-icon">🔥</span><div><strong id="savedCount">0</strong><small data-i18n="savedLessons">Saved lessons</small></div></div>
+    </section>
+
+    <section class="section-block" id="explore">
+      <div class="section-heading">
+        <div><span class="eyebrow" data-i18n="startHere">START HERE</span><h2 data-i18n="pathsTitle">Explore learning paths</h2></div>
+        <span class="muted" data-i18n="beginnerFriendly">Beginner friendly</span>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <div><span class="eyebrow" data-i18n="library">THE LEARNING LIBRARY</span><h2 data-i18n="lessonsTitle">Lessons for everyday decisions</h2></div>
+        <label class="search-wrap"><span>⌕</span><input id="searchInput" type="search" data-placeholder="searchPlaceholder" placeholder="Search lessons..."></label>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="lesson-grid" id="lessonGrid"></div>
+      <p class="empty-state hidden" id="emptyState" data-i18n="noResults">No lessons found. Try another search.</p>
+    </section>
+
+    <section class="section-block quiz-promo">
+      <div><span class="eyebrow" data-i18n="checkLearning">CHECK YOUR LEARNING</span><h2 data-i18n="quizPromoTitle">A little practice makes concepts stick.</h2><p data-i18n="quizPromoText">Take a short quiz after each lesson and see how much you have understood.</p></div>
+      <div class="quiz-stamp">?</div>
+    </section>
+
+    <footer>
+      <div class="footer-brand"><span class="brand-mark">IT</span><strong>Investor Toolkit</strong></div>
+      <p data-i18n="disclaimer">Educational content only. This app does not provide investment, insurance, tax or legal advice. Product terms and regulations can change; verify details with official providers.</p>
+      <div class="footer-links"><a href="learn/">Articles</a><a href="about.html">About</a><a href="privacy.html">Privacy policy</a><a href="disclaimer.html">Disclaimer</a></div>
+      <small>© <span id="year"></span> Investor Toolkit</small>
+    </footer>
+  </main>
+
+  <div class="modal-backdrop hidden" id="lessonModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <article class="lesson-modal">
+      <button class="close-btn" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-meta"><span id="modalCategory"></span><span id="modalLevel"></span></div>
+      <h2 id="modalTitle"></h2>
+      <p class="modal-intro" id="modalIntro"></p>
+      <div class="lesson-content" id="modalBody"></div>
+      <div class="key-takeaway"><strong data-i18n="keyTakeaway">Key takeaway</strong><p id="modalTakeaway"></p></div>
+      <div class="modal-actions">
+        <button class="secondary-btn" id="saveLesson">☆ <span data-i18n="saveLesson">Save lesson</span></button>
+        <button class="primary-btn" id="startQuiz" data-i18n="takeQuiz">Take the quiz →</button>
+      </div>
+      <div class="quiz-area hidden" id="quizArea">
+        <div class="quiz-top"><strong data-i18n="quickQuiz">Quick quiz</strong><span id="questionProgress"></span></div>
+        <h3 id="questionText"></h3>
+        <div class="answer-list" id="answerList"></div>
+        <p class="answer-feedback" id="answerFeedback" aria-live="polite"></p>
+        <button class="primary-btn hidden" id="nextQuestion" data-i18n="nextQuestion">Next question →</button>
+        <div class="quiz-result hidden" id="quizResult"></div>
+      </div>
+      <button class="complete-btn" id="completeLesson">✓ <span data-i18n="markComplete">Mark lesson as complete</span></button>
+    </article>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
